@@ -35,7 +35,10 @@ By the end of this series, this repository will show:
 - [ ] Phase 2: The Automator (Days 31-60)
 - [ ] Phase 3: The Analyst (Days 61-90)
 
-## Learning Log
-| Day | Concept | Key Takeaway |
-| :--- | :--- | :--- |
-| 01 | Variables & I/O | Variables are containers; inputs are how we ingest artifacts. |
+## Day 1: The Interrogation (Input/Output)
+**Goal:** Master variable assignment, user input, and formatted output.
+
+### Exercises Completed:
+1. **triage_report.py**: Captures Analyst name, Case ID, and Target IP.
+2. **variable_swap.py**: Practicing re-assignment of network configurations.
+3. **evidence_string.py**: Building alert strings from multiple data types.
