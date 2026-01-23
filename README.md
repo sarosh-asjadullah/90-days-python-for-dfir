@@ -38,7 +38,14 @@ By the end of this series, this repository will show:
 ## Day 1: The Interrogation (Input/Output)
 **Goal:** Master variable assignment, user input, and formatted output.
 
+### Day 1: Learning Reflections
+- **Technical Progress:** Learned to capture user input, use f-strings for reporting, and sanitize strings with `.strip()`.
+- **Logic Insight:** Confirmed that `input()` defaults to string data even if I intend to use it as a number.
+- **Muscle Memory:** Practiced the `f"[TAG] {variable}"` pattern which is the bread and butter of log generation.
+
 ### Exercises Completed:
 1. **triage_report.py**: Captures Analyst name, Case ID, and Target IP.
 2. **variable_swap.py**: Practicing re-assignment of network configurations.
 3. **evidence_string.py**: Building alert strings from multiple data types.
+
+
