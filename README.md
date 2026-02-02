@@ -48,4 +48,9 @@ By the end of this series, this repository will show:
 2. **variable_swap.py**: Practicing re-assignment of network configurations.
 3. **evidence_string.py**: Building alert strings from multiple data types.
 
+## Day 2: String Slicing & Methods
+- **Technical Progress:** Mastered slicing `[start:stop]`, negative indexing `[-n]`, and sanitization methods (`.lower()`, `.replace()`).
+- **Logic Insight:** The "Stop" index is exclusive. To get characters 0-4, I must type `[0:5]`.
+- **Scar Tissue:** Escape characters! I learned that `\` inside a string needs to be written as `\\`.
+
 
