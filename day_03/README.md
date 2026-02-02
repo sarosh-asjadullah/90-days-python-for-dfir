@@ -1,6 +1,6 @@
 Welcome to **Day 3**.
 
-[**Day2**](https://github.com/sarosh-asjadullah/90-days-python-for-dfir/tree/main/day_02) was about surgery (slicing strings). Today is about **decision making**.
+[**Day 2**](https://github.com/sarosh-asjadullah/90-days-python-for-dfir/tree/main/day_02) was about surgery (slicing strings). Today is about **decision making**.
 
 In DFIR, We can't manually look at 10,000 log lines. We write a script to look for We. We tell the script: *"If the IP is from this country, alert me. If the file size is huge, flag it. Otherwise, ignore it."*
 
