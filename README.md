@@ -53,4 +53,7 @@ By the end of this series, this repository will show:
 - **Logic Insight:** The "Stop" index is exclusive. To get characters 0-4, I must type `[0:5]`.
 - **Scar Tissue:** Escape characters! I learned that `\` inside a string needs to be written as `\\`.
 
-
+## Day 3: Logic & Control Flow
+- **Technical Progress:** Learned `if`, `elif`, `else`, comparators (`==`, `!=`, `>`), and the powerful `in` operator.
+- **Logic Insight:** Python evaluates conditionals top-to-bottom. The first expression that evaluates to `True` wins, and the rest are ignored. Order matters!
+- **Muscle Memory:** Practiced compound logic (`and`/`or`) to create "Kill Chain" rules for flagging threats.
