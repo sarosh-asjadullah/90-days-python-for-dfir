@@ -57,3 +57,8 @@ By the end of this series, this repository will show:
 - **Technical Progress:** Learned `if`, `elif`, `else`, comparators (`==`, `!=`, `>`), and the powerful `in` operator.
 - **Logic Insight:** Python evaluates conditionals top-to-bottom. The first expression that evaluates to `True` wins, and the rest are ignored. Order matters!
 - **Muscle Memory:** Practiced compound logic (`and`/`or`) to create "Kill Chain" rules for flagging threats.
+
+## Day 4: Lists & Loops
+- **Technical Progress:** Mastered the `for` loop to iterate through lists. Learned the "Accumulator Pattern" (counters) to summarize data.
+- **Logic Insight:** A loop repeats the *same* block of code for *different* data items. Variables defined outside the loop (like counters) persist and grow; variables inside the loop reset on every iteration.
+- **Muscle Memory:** Combined `if` statements inside `for` loops to create filters (Search & Destroy).
