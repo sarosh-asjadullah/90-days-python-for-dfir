@@ -62,3 +62,10 @@ By the end of this series, this repository will show:
 - **Technical Progress:** Mastered the `for` loop to iterate through lists. Learned the "Accumulator Pattern" (counters) to summarize data.
 - **Logic Insight:** A loop repeats the *same* block of code for *different* data items. Variables defined outside the loop (like counters) persist and grow; variables inside the loop reset on every iteration.
 - **Muscle Memory:** Combined `if` statements inside `for` loops to create filters (Search & Destroy).
+
+## Day 5: Lists & Dictionaries
+- **Technical Progress:** Learned to dynamically build lists using `.append()`. Mastered Dictionary lookups (`key -> value`).
+- **Logic Insight:** - Lists (`[]`) are for ordered items (logs, files).
+    - Dictionaries (`{}`) are for mapping data (IP->Country, Port->Protocol).
+    - `KeyError` happens when asking a dictionary for a key that doesn't exist.
+- **Muscle Memory:** Combined loops with `if` statements to filter data into new lists.
