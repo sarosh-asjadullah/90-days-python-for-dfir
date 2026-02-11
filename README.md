@@ -69,3 +69,9 @@ By the end of this series, this repository will show:
     - Dictionaries (`{}`) are for mapping data (IP->Country, Port->Protocol).
     - `KeyError` happens when asking a dictionary for a key that doesn't exist.
 - **Muscle Memory:** Combined loops with `if` statements to filter data into new lists.
+
+## Day 6: File I/O
+- **Technical Progress:** Learned to Open, Read, and Write files using the `with` context manager.
+- **Logic Insight:** `write()` is literal. It does not add newlines automatically; I must explicitly add `\n`.
+- **Muscle Memory:** Adopted the "Load-Process-Save" pattern: Read data into a list -> Manipulate it in memory -> Write the results to a new file.
+- **Defense:** Used `errors="ignore"` to prevent script crashes when reading non-text bytes.
