@@ -75,3 +75,9 @@ By the end of this series, this repository will show:
 - **Logic Insight:** `write()` is literal. It does not add newlines automatically; I must explicitly add `\n`.
 - **Muscle Memory:** Adopted the "Load-Process-Save" pattern: Read data into a list -> Manipulate it in memory -> Write the results to a new file.
 - **Defense:** Used `errors="ignore"` to prevent script crashes when reading non-text bytes.
+
+## Day 7: Milestone - The Log Parser
+- **Technical Progress:** Built a complete "ETL" script (Extract, Transform, Load). Extracted IPs from raw logs, filtered for specific keywords, deduplicated the results, and saved a report.
+- **Logic Insight:** "Parallel Arrays" (separate lists for related data) work but are risky. Deduplication requires checking existence (`if x not in list`) before appending.
+- **Muscle Memory:** Combined File I/O + String Splitting + List Appending + Loops into a single workflow.
+- **Correction:** Must verify that `f.write()` includes `\n` or the report is unreadable.
