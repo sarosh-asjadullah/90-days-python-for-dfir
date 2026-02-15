@@ -81,3 +81,8 @@ By the end of this series, this repository will show:
 - **Logic Insight:** "Parallel Arrays" (separate lists for related data) work but are risky. Deduplication requires checking existence (`if x not in list`) before appending.
 - **Muscle Memory:** Combined File I/O + String Splitting + List Appending + Loops into a single workflow.
 - **Correction:** Must verify that `f.write()` includes `\n` or the report is unreadable.
+
+## Day 8: Functions
+- **Technical Progress:** Refactored linear scripts into reusable functions (`def`). Used `return` to pass data back to the main program.
+- **Logic Insight:** `return` stops the function and sends value out. Without it, the result is lost (None).
+- **Muscle Memory:** Parameter unpacking: `ip, time = extract_data(line)`.
