@@ -86,3 +86,8 @@ By the end of this series, this repository will show:
 - **Technical Progress:** Refactored linear scripts into reusable functions (`def`). Used `return` to pass data back to the main program.
 - **Logic Insight:** `return` stops the function and sends value out. Without it, the result is lost (None).
 - **Muscle Memory:** Parameter unpacking: `ip, time = extract_data(line)`.
+
+## Day 9: Error Handling
+- **Technical Progress:** implemented `try/except` blocks to prevent script crashes. Used `pass` to silently ignore errors and `except Exception as e` to debug unknown crashes.
+- **Logic Insight:** A "Bare Except" (`except:`) catches ALL errors, which can be dangerous. It is better to catch specific errors like `FileNotFoundError` or `ValueError`.
+- **Muscle Memory:** Wrapping file operations in `try` blocks is mandatory when dealing with external evidence.
