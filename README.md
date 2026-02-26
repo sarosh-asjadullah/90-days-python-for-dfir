@@ -91,3 +91,8 @@ By the end of this series, this repository will show:
 - **Technical Progress:** implemented `try/except` blocks to prevent script crashes. Used `pass` to silently ignore errors and `except Exception as e` to debug unknown crashes.
 - **Logic Insight:** A "Bare Except" (`except:`) catches ALL errors, which can be dangerous. It is better to catch specific errors like `FileNotFoundError` or `ValueError`.
 - **Muscle Memory:** Wrapping file operations in `try` blocks is mandatory when dealing with external evidence.
+
+## Day 10: Standard Library (os & time)
+- **Technical Progress:** Utilized the `os` module for file system navigation and metadata extraction. Used `time` for timestamps.
+- **Logic Insight:** Operating system interactions require defensive checks. `os.mkdir()` crashes if the folder exists; `os.path.exists()` should be used prior to taking action.
+- **Muscle Memory:** Combined directory listing (`os.listdir`) with string methods (`.endswith`) and path sizing (`os.path.getsize`).
