@@ -96,3 +96,8 @@ By the end of this series, this repository will show:
 - **Technical Progress:** Utilized the `os` module for file system navigation and metadata extraction. Used `time` for timestamps.
 - **Logic Insight:** Operating system interactions require defensive checks. `os.mkdir()` crashes if the folder exists; `os.path.exists()` should be used prior to taking action.
 - **Muscle Memory:** Combined directory listing (`os.listdir`) with string methods (`.endswith`) and path sizing (`os.path.getsize`).
+
+## Day 11: String Splitting & Joining
+- **Technical Progress:** Mastered `.split(delimiter)` to break complex strings into lists and `delimiter.join(list)` to reconstruct them.
+- **Logic Insight:** Consecutive delimiters (like `,,`) create empty strings in the resulting list. They do not collapse automatically.
+- **Muscle Memory:** Combined string splitting with deduplication logic to extract unique observables from raw data.
