@@ -41,7 +41,7 @@ for i in range(len(unique_domain)):
 final_domain_list = ", ".join(final_domain_list)
 print(final_domain_list)
 
-#The above is my initial attempt answer but better answer is below 
+#The above one  is my initial attempt answer but better answer is below 
 emails = ["admin@evil.com", "user@corp.local", "ceo@evil.com", "it@corp.local"]
 unique_domains = []
 
