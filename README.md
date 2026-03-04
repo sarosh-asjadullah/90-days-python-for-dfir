@@ -106,3 +106,8 @@ By the end of this series, this repository will show:
 - **Technical Progress:** Explored the specialized roles of Tuples (immutability) and Sets (uniqueness/math operations).
 - **Logic Insight:** Sets are not just for deduplication; they allow for powerful Venn-style operations like intersections (`&`) and differences (`-`) to filter traffic in one line of code.
 - **Muscle Memory:** Used set subtraction to instantly filter whitelisted IPs out of a noisy traffic log.
+
+## Day 13: sys & CLI Arguments
+- **Technical Progress:** Used `sys.argv` to accept dynamic inputs from the command line. Built input validation with `len(sys.argv)` and `sys.exit()`.
+- **Logic Insight:** Every element in `sys.argv` is a string. The `+` operator concatenates strings rather than adding them mathematically. Cast with `int()` if math is needed.
+- **Muscle Memory:** Combined CLI argument handling with file parsing functions to build a reusable, dynamic log hunter.
