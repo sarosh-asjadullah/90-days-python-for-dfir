@@ -101,3 +101,8 @@ By the end of this series, this repository will show:
 - **Technical Progress:** Mastered `.split(delimiter)` to break complex strings into lists and `delimiter.join(list)` to reconstruct them.
 - **Logic Insight:** Consecutive delimiters (like `,,`) create empty strings in the resulting list. They do not collapse automatically.
 - **Muscle Memory:** Combined string splitting with deduplication logic to extract unique observables from raw data.
+
+## Day 12: Lists vs. Tuples vs. Sets
+- **Technical Progress:** Explored the specialized roles of Tuples (immutability) and Sets (uniqueness/math operations).
+- **Logic Insight:** Sets are not just for deduplication; they allow for powerful Venn-style operations like intersections (`&`) and differences (`-`) to filter traffic in one line of code.
+- **Muscle Memory:** Used set subtraction to instantly filter whitelisted IPs out of a noisy traffic log.
