@@ -77,7 +77,7 @@ After completing the main tool, I added one more feature:
 |-----|-------|---------------|
 | 8 | Functions | `analyze_log()` and `write_report()` |
 | 9 | Error Handling | `try/except` for missing files |
-| 10 | OS Module | `os.path.exists()` for file validation | Note - Didnt use this
+| 10 | OS Module | `os.path.exists()` for file validation "Note - Didnt use this" | 
 | 11 | String Splitting | `.split(" ")` to extract IPs from log lines |
 | 12 | Sets | `set()` for deduplication with `--unique` |
 | 13 | sys.argv | CLI arguments for filename, keyword, and flags |
