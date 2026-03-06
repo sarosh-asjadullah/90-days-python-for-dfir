@@ -1,0 +1,6 @@
+--- LOG ANALYSIS REPORT ---
+The access.log analyzed for keyword: /admin
+The total count of IPs found is: 3
+1. 10.0.0.5
+2. 10.0.0.7
+3. 192.168.1.10

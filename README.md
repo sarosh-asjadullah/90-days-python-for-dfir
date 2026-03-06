@@ -111,3 +111,8 @@ By the end of this series, this repository will show:
 - **Technical Progress:** Used `sys.argv` to accept dynamic inputs from the command line. Built input validation with `len(sys.argv)` and `sys.exit()`.
 - **Logic Insight:** Every element in `sys.argv` is a string. The `+` operator concatenates strings rather than adding them mathematically. Cast with `int()` if math is needed.
 - **Muscle Memory:** Combined CLI argument handling with file parsing functions to build a reusable, dynamic log hunter.
+
+## Day 14: Milestone 2 — The CLI Log Analyzer
+- **Technical Progress:** Built a complete CLI tool combining functions, error handling, file I/O, string splitting, sets, and sys.argv into one modular script.
+- **Logic Insight:** Checking for flags with `if "--flag" in sys.argv` is cleaner than positional elif chains. Flags can appear in any order and any combination.
+- **Muscle Memory:** Write-once report logic with a conditional print — never duplicate an entire block just to add screen output.
