@@ -1,0 +1,21 @@
+{
+    "alert_id": "INC-2024-0042",
+    "severity": "HIGH",
+    "timestamp": "2024-03-15T08:12:00Z",
+    "source": {
+        "ip": "192.168.1.50",
+        "hostname": "WORKSTATION-7",
+        "user": "j.smith"
+    },
+    "destination": {
+        "ip": "45.33.22.11",
+        "port": 443,
+        "country": "RU"
+    },
+    "indicators": [
+        "45.33.22.11",
+        "evil-domain.ru",
+        "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4"
+    ],
+    "action_taken": "blocked"
+}
