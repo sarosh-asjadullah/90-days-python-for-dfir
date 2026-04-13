@@ -1,0 +1,16 @@
+[
+    {
+        "alert_id": "INC-2024-0042",
+        "severity": "HIGH",
+        "source_ip": "192.168.1.50",
+        "dest_ip": "45.33.22.11",
+        "action": "blocked"
+    },
+    {
+        "alert_id": "INC-2024-0045",
+        "severity": "HIGH",
+        "source_ip": "192.168.1.50",
+        "dest_ip": "91.215.44.12",
+        "action": "blocked"
+    }
+]

@@ -116,3 +116,13 @@ By the end of this series, this repository will show:
 - **Technical Progress:** Built a complete CLI tool combining functions, error handling, file I/O, string splitting, sets, and sys.argv into one modular script.
 - **Logic Insight:** Checking for flags with `if "--flag" in sys.argv` is cleaner than positional elif chains. Flags can appear in any order and any combination.
 - **Muscle Memory:** Write-once report logic with a conditional print — never duplicate an entire block just to add screen output.
+
+## Day 15: CSV Files
+- **Technical Progress:** Learned `csv.reader` (rows as lists) and `csv.DictReader` (rows as dictionaries). Used `csv.writer` to produce structured output files.
+- **Logic Insight:** CSV fields are always strings, even if they look like numbers. Must cast with `int()` or `float()` before doing math or numeric comparisons.
+- **Muscle Memory:** The dictionary-as-counter pattern (`if key in dict: dict[key] += 1 else: dict[key] = 1`) for grouping and summarizing log data.
+
+## Day 16: JSON Data
+- **Technical Progress:** Learned `json.load()` for files and `json.loads()` for strings. Accessed nested data with chained keys like `data["source"]["ip"]`. Used `json.dump()` with `indent=4` for readable output.
+- **Logic Insight:** `json.load()` reads from a file object; `json.loads()` reads from a string. JSON numbers come in as actual Python ints/floats (unlike CSV where everything is a string).
+- **Muscle Memory:** The dictionary-as-counter pattern applies to JSON the same way it applies to CSV — one loop, dynamic keys, no hardcoded variables per category.
