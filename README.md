@@ -116,3 +116,8 @@ By the end of this series, this repository will show:
 - **Technical Progress:** Built a complete CLI tool combining functions, error handling, file I/O, string splitting, sets, and sys.argv into one modular script.
 - **Logic Insight:** Checking for flags with `if "--flag" in sys.argv` is cleaner than positional elif chains. Flags can appear in any order and any combination.
 - **Muscle Memory:** Write-once report logic with a conditional print — never duplicate an entire block just to add screen output.
+
+## Day 15: CSV Files
+- **Technical Progress:** Learned `csv.reader` (rows as lists) and `csv.DictReader` (rows as dictionaries). Used `csv.writer` to produce structured output files.
+- **Logic Insight:** CSV fields are always strings, even if they look like numbers. Must cast with `int()` or `float()` before doing math or numeric comparisons.
+- **Muscle Memory:** The dictionary-as-counter pattern (`if key in dict: dict[key] += 1 else: dict[key] = 1`) for grouping and summarizing log data.
