@@ -126,3 +126,9 @@ By the end of this series, this repository will show:
 - **Technical Progress:** Learned `json.load()` for files and `json.loads()` for strings. Accessed nested data with chained keys like `data["source"]["ip"]`. Used `json.dump()` with `indent=4` for readable output.
 - **Logic Insight:** `json.load()` reads from a file object; `json.loads()` reads from a string. JSON numbers come in as actual Python ints/floats (unlike CSV where everything is a string).
 - **Muscle Memory:** The dictionary-as-counter pattern applies to JSON the same way it applies to CSV — one loop, dynamic keys, no hardcoded variables per category.
+
+## Day 17: Context Managers (Deep Dive into with)
+
+- **Technical Progress:** Learned that `with` automatically closes file handles on block exit by calling __exit__, even when the code inside crashes.
+- **Logic Insight:**  A file handle is closed the moment execution leaves the with block — calling `f.write()` or `f.read()` after that raises `ValueError: I/O` operation on closed file.
+- **Muscle Memory:** The dual context manager pattern — two files opened in a single with statement separated by a comma — is the correct structure for all read-filter-write pipelines.
