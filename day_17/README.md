@@ -12,6 +12,8 @@ A file handle is closed the instant execution returns to the base indentation le
 
 The dual context manager pattern opens two files in a single `with` statement using a comma: one for reading, one for writing. Both handles are guaranteed to close properly. This replaces the pattern of reading into a list, closing the input, then opening the output to write.
 
+---
+
 ### The Tasks
 
 #### Task 17.1: Verify the Auto-Close Behavior
@@ -47,6 +49,8 @@ The dual context manager pattern opens two files in a single `with` statement us
 4. Return only the count — not the path.
 5. Create `system_log.txt` with a mix of `ERROR` and non-`ERROR` lines.
 6. Call the function and print: `f"Processed evidence: {count} errors extracted to errors_only.txt"`.
+
+---
 
 ### The Muscle Memory Gauntlet
 
