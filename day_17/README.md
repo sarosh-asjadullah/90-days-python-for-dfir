@@ -16,6 +16,8 @@ The dual context manager pattern opens two files in a single `with` statement us
 
 ### The Tasks
 
+I created `day_17/context_drills.py`
+
 #### Task 17.1: Verify the Auto-Close Behavior
 
 1. Create `firewall_log.txt` with three fake log lines.
