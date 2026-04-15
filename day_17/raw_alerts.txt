@@ -1,0 +1,5 @@
+2026-04-15T08:12:33Z CRITICAL Lateral movement detected: unusual SMB traffic from 10.10.10.45 to 10.10.10.30
+2026-04-15T08:14:01Z INFO Scheduled task completed successfully on DC1
+2026-04-15T08:17:45Z CRITICAL Credential dumping attempt detected: lsass.exe accessed by unknown process
+2026-04-15T08:22:10Z WARNING Elevated failed logon count on DIRTY_PC: 14 failures in 5 minutes
+2026-04-15T08:25:58Z CRITICAL Outbound C2 beacon suspected: repeated 443 connections to 185.220.101[.]47 from 10.10.10.55

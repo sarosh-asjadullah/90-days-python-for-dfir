@@ -1,0 +1,12 @@
+2026-04-16T08:01:05Z LOW Reconnaissance probe from 10.10.10.99 - port 80
+2026-04-16T08:03:17Z HIGH Brute force attempt on RDP from 185.220.101[.]47 - 52 failures
+2026-04-16T08:05:44Z MEDIUM Unusual outbound DNS query volume from DIRTY_PC
+2026-04-16T08:07:29Z CRITICAL Mimikatz execution detected on 10.10.10.45 - lsass access confirmed
+2026-04-16T08:09:11Z LOW ICMP sweep detected from 10.10.10.20
+2026-04-16T08:11:58Z HIGH Lateral movement via SMB: 10.10.10.45 -> 10.10.10.30
+2026-04-16T08:14:33Z MEDIUM Failed Kerberos pre-authentication for user svc_backup
+2026-04-16T08:16:47Z CRITICAL Ransomware signature matched on 10.10.10.55 - vssadmin delete shadows
+2026-04-16T08:19:02Z LOW ARP scan detected on subnet 10.10.10.0/24
+2026-04-16T08:21:39Z HIGH Suspicious PowerShell encoded command executed on DC1
+2026-04-16T08:23:14Z MEDIUM Outbound HTTP POST to uncategorized domain from 10.10.10.33
+2026-04-16T08:25:50Z CRITICAL Pass-the-hash attack detected: NTLM relay from 10.10.10.45

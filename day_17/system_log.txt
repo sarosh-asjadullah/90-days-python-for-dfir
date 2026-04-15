@@ -1,0 +1,10 @@
+2026-04-16T07:01:12Z INFO System boot completed successfully
+2026-04-16T07:03:45Z ERROR Failed to authenticate user admin from 192.168.1.10
+2026-04-16T07:05:22Z INFO Scheduled backup initiated on DC1
+2026-04-16T07:08:37Z ERROR Disk usage exceeded 90% threshold on /var/log
+2026-04-16T07:11:04Z WARNING High memory utilization detected on DIRTY_PC: 87%
+2026-04-16T07:14:19Z ERROR Outbound connection blocked to 185.220.101[.]47 on port 443
+2026-04-16T07:17:55Z INFO User sarosh logged in successfully from 10.10.10.5
+2026-04-16T07:21:33Z ERROR Service CrowdStrike Falcon sensor stopped unexpectedly
+2026-04-16T07:24:10Z INFO Daily threat intelligence feed updated
+2026-04-16T07:28:47Z WARNING DNS query volume spike detected: 340 queries in 60 seconds

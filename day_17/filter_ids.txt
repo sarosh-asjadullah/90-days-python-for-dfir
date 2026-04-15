@@ -1,0 +1,6 @@
+2026-04-16T08:03:17Z HIGH Brute force attempt on RDP from 185.220.101[.]47 - 52 failures
+2026-04-16T08:07:29Z CRITICAL Mimikatz execution detected on 10.10.10.45 - lsass access confirmed
+2026-04-16T08:11:58Z HIGH Lateral movement via SMB: 10.10.10.45 -> 10.10.10.30
+2026-04-16T08:16:47Z CRITICAL Ransomware signature matched on 10.10.10.55 - vssadmin delete shadows
+2026-04-16T08:21:39Z HIGH Suspicious PowerShell encoded command executed on DC1
+2026-04-16T08:25:50Z CRITICAL Pass-the-hash attack detected: NTLM relay from 10.10.10.45
